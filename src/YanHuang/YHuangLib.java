@@ -10,14 +10,14 @@ public class YHuangLib {
         return firstTwo + "-" + secondTwo + "-" + lastTwo; //adds the date month and year together in a different format with dashes in between
     }
 
-    public static boolean isPalindrome (String str) //compares each character of the words to see if they are equal
+    public static boolean isPalindrome (String str)
 
     {
         int i = 0;
         int r = str.length() - 1;
         while (i<r)
         {
-            if (str.charAt(i) != str.charAt(r))
+            if (str.charAt(i) != str.charAt(r))  //compares each character of the words to see if they are equal
             {
                 return false;
             }
@@ -41,7 +41,7 @@ public class YHuangLib {
             }
         }
         int lcm2;
-        if (num2 > lcm) {
+        if (num2 > lcm) { //repeat the same steps to compare num1 and num2
             lcm2 = num2;
         } else {
             lcm2 = lcm;
@@ -55,16 +55,16 @@ public class YHuangLib {
         return lcm2;
     }
 
-    
+
     public static boolean isFibonnaci (int num)
     {
         int f = 0;
         int s = 1;
         while (f <= num)
         {
-            int sum = f + s;
+            int sum = f + s;  //adds the two numbers
             f = s;
-            if (num != sum)
+            if (num != sum) //finds if the number entered is a sum
             {
                 return false;
             }
