@@ -1,0 +1,18 @@
+package YanHuang;
+
+public class Main {
+
+    public static void main(String[] args) {
+    //Calculates the sum of the numbers from 0 to 25
+    //True if 21 is in the Fibonnaci sequence; false if not
+    //Take out dash and replaces it with hyphen
+    //Returns true if “racecar” is palindrome; false if not
+    //Finds the least common multiple of 5, 6, 7
+
+    System.out.println (YHuangLib.sumUpTo(25));
+    System.out.println (YHuangLib.isFibonnaci(21));
+    System.out.println (YHuangLib.dateStr("12/04/1992"));
+    System.out.println (YHuangLib.isPalindrome("racecar"));
+    System.out.println (YHuangLib.leastCommonMultiple(5,6,7));
+    }
+}
